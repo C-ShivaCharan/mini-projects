@@ -1,6 +1,6 @@
 import qrcode
 
-data=input("enter the QR CODE or TEXT:").strip()
+data=input("enter the URL or TEXT:").strip()
 filename=input("Enter the name of the file:")
 
 qr=qrcode.QRCode(box_size=15,border=5,version=15)
